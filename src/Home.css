@@ -1,4 +1,6 @@
 .home {
+    min-height: 500px;
+    object-fit: cover;
     width: 100%;
     z-index: -1;
     margin-bottom: -150px;
