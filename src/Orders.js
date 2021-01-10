@@ -1,5 +1,6 @@
 import React, { useEffect, useState } from 'react';
 import { db } from "./firebase";
+import Order from './Order';
 import './Orders.css';
 import { useStateValue } from './StateProvider';
 
@@ -25,7 +26,6 @@ function Orders() {
         }
     }, [user])
         
-       
     return (
         <div className='orders'>
             <h1>Your Orders </h1>
