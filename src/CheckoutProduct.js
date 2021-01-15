@@ -39,4 +39,4 @@ function CheckoutProduct({ id, image, title, price, rating, hideButton }) {
 }
 
 export default CheckoutProduct;
-// 3:19:42
+// 3:28:20
