@@ -1,11 +1,15 @@
-.wrapper {
+/* . {
     display: grid;
       grid-template-columns: 1fr 1fr 1fr;
       grid-template-rows: 1fr;
       padding-right: 205px;
       
-  }
+  } */
   .shop {
+    display: grid;
+      grid-template-columns: 1fr 1fr 1fr;
+      grid-template-rows: 1fr;
+      padding-right: 205px;
     background-color: transparent;
     width: 380px;
     height: 437px;

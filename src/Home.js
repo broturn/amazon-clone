@@ -9,9 +9,8 @@ import image6 from "./images/sunflower.jpg";
 
 function Home() {
   return (
-    <div className="home">
-      <div className="home__container">
-        <div className="home__row">
+     <div className="shop">
+     <div className="shop__item">
           <Shop
             id="0"
             title="Patriotic Doves"
@@ -21,7 +20,8 @@ function Home() {
               
             }
          alt="1" />
-
+         </div>
+         <div className="shop_item">
           <Shop
             id="1"
             title="Welcome"
@@ -29,8 +29,7 @@ function Home() {
             price={50}
             image= { image2 }
           />
-        </div>
-        <div className="home__row">
+   </div>
           <Shop
             id="3"
             title="Samsung Galaxy Watch 3 (41mm, GPS, Bluetooth) Smart Watch with Advanced Health monitoring, Fitness Tracking , and Long lasting Battery - Mystic Silver (US Version)"
@@ -49,17 +48,14 @@ function Home() {
             price={50}
             image= { image5 }
           />
-        </div>
-        <div className="home__row">
+
           <Shop
             id="6"
             title="Samsung LC49RG90SSUXEN 49' Curved LED Gaming Monitor"
             price={50}
             image= { image6 }
             />
-        </div>
-      </div>
-    </div>
+            </div>
   );
 }
 
