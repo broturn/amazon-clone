@@ -1,5 +1,4 @@
 import React from "react";
-import "./Shop.css";
 import { useStateValue } from "./StateProvider";
 
 function Shop({ id, title, description, image, price, rating }) {
@@ -22,6 +21,7 @@ function Shop({ id, title, description, image, price, rating }) {
 
   return (
     <div className="shop">
+    <div className="wrapper">
     <div className="shop-item__front">
       <div className="top"> 
       <div className="designs"> 
@@ -34,10 +34,9 @@ function Shop({ id, title, description, image, price, rating }) {
             <div className="shop-item__back__description">{description}</div>
             <div className="shop-item__back__price">${price}</div>
             <button onClick={addToBasket}>Add to Basket</button>
-            {/* <div className="shop-item__back__quantity" quantity={1} /> */}
     </div>
   </div>  
-     
+  </div>
   );
   }
 

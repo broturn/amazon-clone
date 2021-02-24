@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import CheckoutProduct from './CheckoutProduct';
-import './Payment.css';
 import { useStateValue } from './StateProvider';
 import { Link, useHistory } from 'react-router-dom';
 import { CardElement, useElements, useStripe } from '@stripe/react-stripe-js';

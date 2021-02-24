@@ -1,13 +1,15 @@
 @import "colors";
-@import "homepage";
-@import "navbar";
+@import "homepage.css";
+@import "header.css";
 @import "contact";
 @import "about";
 @import "home";
-@import 'shop';
-@import './login.css';
-/* // @import 'shop-cart'; */
+@import 'shop.css';
+@import 'login';
 @import 'cart';
+@import 'Order';
+@import 'Payment';
+@import 'Subtotal';
 
 html {
   background-color: #504c65;

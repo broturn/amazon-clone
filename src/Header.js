@@ -23,15 +23,11 @@ function Header() {
         Home
       </Link>
       </div>
-      <div className="nav-link-wrapper">
-       <Link to= "/Shop" className="Link">
-       Shop
-       </Link>
-      </div>
 </div>
 <div className="right-side">
 <div className="nav-link-wrapper">
       <div className="header__nav">
+      <div className="login">
         <Link to={!user && "/login"}>
           <div onClick={handleAuthentication} className="header__option">
             <span className="header__optionLineOne">
@@ -42,6 +38,7 @@ function Header() {
             </span>
           </div>
         </Link>
+        </div>
         </div>
 
         <Link to="/orders" className="Link">

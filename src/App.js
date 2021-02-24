@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import "./App.css";
+import "./style/main.css";
 import Header from "./Header";
 import Home from "./Home";
 import Checkout from "./Checkout";
@@ -49,10 +49,6 @@ function App() {
           </Route>
           <Route path="/checkout">
             <Header />
-            <Checkout />
-          </Route>
-          <Route path="/shop">
-            <Shop />
             <Checkout />
           </Route>
           

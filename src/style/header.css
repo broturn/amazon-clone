@@ -32,7 +32,7 @@
   white-space: nowrap;
 }
 
-.cart i {
+.cart {
   text-decoration: none;
   font-size: 40px;
   position: absolute;
@@ -42,11 +42,11 @@
  
 }
 
-.cart i:hover {
+.cart :hover {
   color: #F6FCFC;
 }
 
-.login i {
+.login  {
   text-decoration: none;
   font-size: 40px;
   position: absolute;
@@ -56,6 +56,6 @@
  
 }
 
-.login i:hover {
+.login :hover {
   color: #F6FCFC;
 }

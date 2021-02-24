@@ -1,7 +1,7 @@
 import React, { useState } from "react";
-import "./Login.css";
 import { Link, useHistory } from "react-router-dom";
 import { auth } from "./firebase";
+import logo from "./images/logo1.png";
 
 function Login() {
   const history = useHistory();
@@ -36,7 +36,7 @@ function Login() {
       <Link to="/">
         <img
           className="login__logo"
-          src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a9/Amazon_logo.svg/1024px-Amazon_logo.svg.png"
+          src={ logo }
           alt=""
         />
       </Link>
@@ -52,11 +52,6 @@ function Login() {
 
           <button type='submit' onClick = {signIn}className='login__signInButton' >Sign In</button>
         </form>
-        <p>
-          By signing-in you agree to AMAZON FAKE CLONE Conditions of Use & Sale. Please
-          see our Privacy Notice, our Cookies Notice and our Internet-Based Ads
-          Notice
-        </p>
         <button onClick = {register} className='login__registerButton'>Create you Amazon Account</button>
       </div>
     </div>
