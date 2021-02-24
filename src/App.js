@@ -51,10 +51,11 @@ function App() {
             <Header />
             <Checkout />
           </Route>
-          <Route path="/about">
+          <Route path="/shop">
             <Shop />
             <Checkout />
           </Route>
+          
           <Route path="/payment">
             <Header />
             <Elements stripe={promise}>

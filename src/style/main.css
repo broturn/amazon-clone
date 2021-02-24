@@ -1,0 +1,17 @@
+@import "colors";
+@import "homepage";
+@import "navbar";
+@import "contact";
+@import "about";
+@import "home";
+@import 'shop';
+@import './login.css';
+/* // @import 'shop-cart'; */
+@import 'cart';
+
+html {
+  background-color: #504c65;
+  color: #a5d3ce;
+  font-family: "Raleway", sans-serif;
+  font-size: 36px;
+}

@@ -32,9 +32,9 @@
   white-space: nowrap;
 }
 
-.cart i {
+.cart {
   text-decoration: none;
-  font-size: 40px;
+  font-size: 25px;
   position: absolute;
   left: 92%;
   top: 1%;
@@ -42,11 +42,11 @@
  
 }
 
-.cart i:hover {
+.cart:hover {
   color: #F6FCFC;
 }
 
-.login i {
+.login {
   text-decoration: none;
   font-size: 40px;
   position: absolute;
@@ -56,15 +56,15 @@
  
 }
 
-.login i:hover {
+.login:hover {
   color: #F6FCFC;
 }
 .header__optionLineOne {
-    font-size: 10px;
+    font-size: 40px;
 }
 
 .header__optionLineTwo {
-    font-size: 13px;
+    font-size: 40px;
     font-weight: 800;
 }
 

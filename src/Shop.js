@@ -2,7 +2,7 @@ import React from "react";
 import "./Shop.css";
 import { useStateValue } from "./StateProvider";
 
-function Product({ id, title, image, price, rating }) {
+function Shop({ id, title, description, image, price, rating }) {
   const [{ basket }, dispatch] = useStateValue();
 
   const addToBasket =() => {
@@ -12,6 +12,7 @@ function Product({ id, title, image, price, rating }) {
       item: {
         id: id,
         title: title,
+        description: description,
         image: image,
         price: price,
         rating: rating,
@@ -20,25 +21,24 @@ function Product({ id, title, image, price, rating }) {
   }
 
   return (
-    <div className="product">
-      <div className="product__info">
-        <p>{title}</p>
-        <p className="product__price">
-          <small>$</small>
-          <strong>{price}</strong>
-        </p>
-        <div className="product__rating">
-          {Array(rating)
-            .fill()
-            .map((_, i) => (
-              <p>⭐</p>
-            ))}
+    <div className="shop">
+    <div className="shop-item__front">
+      <div className="top"> 
+      <div className="designs"> 
+      <img src={image} alt="" />
         </div>
       </div>
-      <img src={image} alt="" />
-      <button onClick={addToBasket}>Add to Basket</button>
     </div>
+    <div className="shop-item__back">
+            <div className="shop-item__back__title">{title}</div>
+            <div className="shop-item__back__description">{description}</div>
+            <div className="shop-item__back__price">${price}</div>
+            <button onClick={addToBasket}>Add to Basket</button>
+            {/* <div className="shop-item__back__quantity" quantity={1} /> */}
+    </div>
+  </div>  
+     
   );
-}
+  }
 
-export default Product;
+export default Shop;
