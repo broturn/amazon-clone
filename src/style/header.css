@@ -1,15 +1,8 @@
-.nav-link-wrapper {
-  width: 100%;
-  font-size: 30px;
-  white-space: nowrap;
-  display: inline-block;
-  overflow: hidden;
- 
-}
 .Link {
     text-decoration: none;
     color: #A5D3CE;
-    padding: 15px;
+    padding-left: 25px;
+    
 
 }
     .Link:hover {
@@ -19,25 +12,26 @@
   display: inline-block;
   width: initial;
   white-space: nowrap;
-  padding-top: 50px;
-  padding-left: 120px;
+  top: -20%;
   z-index: inherit;
 }
 .right-side {
-  display: inline-block;
+  display: flex;
+flex-direction: row;
   width: initial;
   float: right;
-  padding-top: 50px;
   padding-right: 252px;
   white-space: nowrap;
 }
 
 .cart {
+  display: flex;
+  align-items: center;
   text-decoration: none;
   font-size: 40px;
   position: absolute;
   left: 92%;
-  top: 1%;
+  top: -20%;
   color: #A5D3CE;
  
 }
@@ -58,4 +52,21 @@
 
 .login :hover {
   color: #F6FCFC;
+}
+
+.header__optionLineTwo_header__basketCount {
+display: flex;
+}
+.header__optionLineTwo_header__basketCount:hover {
+  color: #A5D3CE;
+}
+
+.logo {
+  height: 200px;
+  padding-right: 1px;
+}
+
+.header__nav {
+  display: flex;
+
 }

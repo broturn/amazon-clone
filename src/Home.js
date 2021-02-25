@@ -10,7 +10,7 @@ import image6 from "./images/sunflower.jpg";
 function Home() {
   return (
      <div className="shop">
-     <div className="shop__item">
+   
           <Shop
             id="0"
             title="Patriotic Doves"
@@ -20,8 +20,7 @@ function Home() {
               
             }
          alt="1" />
-         </div>
-         <div className="shop_item">
+
           <Shop
             id="1"
             title="Welcome"
@@ -29,7 +28,7 @@ function Home() {
             price={50}
             image= { image2 }
           />
-   </div>
+
           <Shop
             id="3"
             title="Samsung Galaxy Watch 3 (41mm, GPS, Bluetooth) Smart Watch with Advanced Health monitoring, Fitness Tracking , and Long lasting Battery - Mystic Silver (US Version)"
