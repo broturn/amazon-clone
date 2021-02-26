@@ -40,7 +40,7 @@ flex-direction: row;
   color: #F6FCFC;
 }
 
-.login  {
+.login__header  {
   text-decoration: none;
   font-size: 40px;
   position: absolute;
@@ -50,7 +50,7 @@ flex-direction: row;
  
 }
 
-.login :hover {
+.login__header :hover {
   color: #F6FCFC;
 }
 

@@ -33,7 +33,7 @@ function Shop({ id, title, description, image, price, rating }) {
             <div className="shop-item__back__title">{title}</div>
             <div className="shop-item__back__description">{description}</div>
             <div className="shop-item__back__price">${price}</div>
-            <button onClick={addToBasket}>Add to Basket</button>
+            <button onClick={addToBasket} className="button">Add to Basket</button>
     </div>
   </div>  
   </div>
